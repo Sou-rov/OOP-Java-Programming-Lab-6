@@ -1,0 +1,14 @@
+public class Average {
+       public static double computeAverage(double a, double b, double c) 
+       {
+        return (a + b + c) / 3;
+       }
+      public static void main(String[] args) {
+        double num1 = 10;
+        double num2 = 20;
+        double num3 = 30;
+
+        System.out.println("The average is: " + computeAverage(num1, num2, num3));
+    }
+}
+
